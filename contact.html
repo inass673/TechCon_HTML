@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TechCon 2024 - contact</title>
+</head>
+<body>
+    <header>
+        <h1>Contact Us</h1>
+        <nav>
+            <a href="index.html">Home</a> |
+            <a href="about.html">About</a> |
+            <a href="register.html">Register</a> |
+            <a href="schedule.html">Contact</a>
+        </nav>
+    </header>
+   <main>
+    <h1>Contact Us & Find Our Venue</h1>
+
+    <section id="contact-details">
+        <h2>Official Contact Information</h2>
+        <ul>
+            <li>
+                <strong>Email:</strong> 
+                <a href="mailto:email@example.com">email@example.com</a>
+            </li>
+        </ul>
+        
+        <h2>Connect with Us</h2>
+        <p>Follow us for updates and news:</p>
+        <div class="social-links">
+            <a href="https://twitter.com/YourConference" target="_blank" aria-label="Follow us on X (formerly Twitter)">
+                [Twitter Icon/Text]
+            </a>
+            <a href="https://facebook.com/YourConference" target="_blank" aria-label="Follow us on Facebook">
+                [Facebook Icon/Text]
+            </a>
+            <a href="https://linkedin.com/company/YourConference" target="_blank" aria-label="Follow us on LinkedIn">
+                [LinkedIn Icon/Text]
+            </a>
+        </div>
+    </section>
+    
+    <hr>
+
+    <section id="venue-map">
+        <h2>Conference Venue Location</h2>
+        <p>Find us at the Grand Convention Center. Click to view on Google Maps.</p>
+        
+        <iframe 
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3153.791599351054!2d144.9602334158448!3d-37.81725107975116!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6ad642b58c707d0f%3A0x6331a61021c37b98!2sMelbourne%20Convention%20and%20Exhibition%20Centre!5e0!3m2!1sen!2sau!4v1630441234567!5m2!1sen!2sau" 
+            width="100%" 
+            height="450" 
+            style="border:0;" 
+            allowfullscreen="" 
+            loading="lazy" 
+            referrerpolicy="no-referrer-when-downgrade"
+            title="Google Maps Location of Conference Venue">
+        </iframe>
+    </section>
+
+    <hr>
+
+    <section id="contact-form">
+        <h2>Send Us a Message</h2>
+        
+        <form action="/submit-message" method="POST">
+            
+            <div>
+                <label for="user-name">Your Full Name:</label>
+                <input type="text" id="user-name" name="name" required>
+            </div>
+            
+            <div>
+                <label for="user-email">Your Email Address:</label>
+                <input type="email" id="user-email" name="email" required>
+            </div>
+            
+            <div>
+                <label for="user-message">Message:</label>
+                <textarea id="user-message" name="message" rows="6" required></textarea>
+            </div>
+            
+            <button type="submit">Send Message</button>
+            
+        </form>
+    </section>
+</main>
+    <footer>
+        <p>&copy; 2024 TechCon. All copyright reserved.</p>
+    </footer>
+</body>
